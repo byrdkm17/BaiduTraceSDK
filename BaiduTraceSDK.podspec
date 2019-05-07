@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "BaiduTraceSDK"
 
-  spec.homepage     = "https://github.com/byrdkm17/BaiduTraceSDK"
+  spec.homepage     = "https://lbsyun.baidu.com/index.php?title=yingyan"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,9 +52,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.author             = { "byrdkm17" => "byrdkm17@gmail.com" }
-  # Or just: spec.author    = "张晶"
-  # spec.authors            = { "张晶" => "byrdkm17@gmail.com" }
-  # spec.social_media_url   = "https://twitter.com/张晶"
+  # Or just: spec.author    = "byrdkm17"
+  # spec.authors            = { "byrdkm17" => "byrdkm17@gmail.com" }
+  # spec.social_media_url   = "https://twitter.com/byrdkm17"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -63,7 +63,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
