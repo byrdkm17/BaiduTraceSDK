@@ -115,7 +115,8 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  spec.framework  = "BaiduTraceSDK.framework"
+  spec.vendored_frameworks = "BaiduTraceSDK.framework"
+  # spec.framework  = "framework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
